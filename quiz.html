@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="question">
+        <p></p>
+    </div>
+    <!-- POST method is used for sensitive data -->
+    <form class="quiz" method="POST" id="quizForm" onsubmit="return false;">
+
+        <input type="radio" name="quizRadio" id="choice1">
+        <label for="choice1" id="label1"></label>
+        <input type="radio" name="quizRadio" id="choice2">
+        <label for="choice1"id="label2" ></label>
+        <input type="radio" name="quizRadio" id="choice3">
+        <label for="choice1" id="label3"></label>
+        <input type="radio" name="quizRadio" id="choice4">
+        <label for="choice1" id="label4"></label>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="scripts/quiz.js"></script>
+</body>
+</html>
