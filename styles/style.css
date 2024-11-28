@@ -50,7 +50,7 @@ footer{
 }
 .button_container button:hover{
     cursor: pointer;
-    background-color: black;
+    background-color: rgb(35, 35, 37);
     color: rgb(118, 173, 255);
     border-color: rgb(118, 173, 255);
 }
